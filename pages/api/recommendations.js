@@ -1,38 +1,39 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const recommendationCard = [
   {
-    id: 0,
-    name: 'Shahmir Minhas',
+    id: 4,
+    name: 'Youssef El Amrani',
     image: "images/shahmir.jfif",
-    designation: 'React JS | NEXT JS | Node | GraphQL',
-    view: "Hey everyone! I wanted to take a moment to recommend Osama Javaid for any React.js opportunities. I had the pleasure of working with him on multiple projects where he showcased a strong understanding of React.js and Next.js concepts and delivered high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was contagious. Osama is a reliable and dedicated team member who would be a great asset to any React.js team. Highly recommended! 👍! 🌟",
+    designation: 'Développeur Full Stack | React | Node.js | Next.js',
+    view: "Je recommande vivement Anas pour tout projet de développement web. Travailler avec lui a été un vrai plaisir : il est rigoureux, créatif et toujours prêt à relever de nouveaux défis. Son expertise en React et Next.js est remarquable et il sait livrer des projets de qualité dans les délais. Un vrai atout pour toute équipe tech !",
     linkednURL: "https://www.linkedin.com/in/shahmir-minhas/"
   },
   {
-    id: 1,
-    name: 'Sikandar Hayat',
+    id: 5,
+    name: 'Rayan Benchekroun',
     image: "images/sikandar.jpeg",
-    designation: 'Data Scientist | Machine Learning Engineer | Python Developer',
-    view: "I had the privilege of working alongside Osama on multiple university projects, and I must say, his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Osama's professionalism and attention to detail shone brightly. I wholeheartedly endorse Osama for any opportunity that calls for a highly skilled and dedicated individual.",
+    designation: 'Ingénieure en Machine Learning | Python | Data Science',
+    view: "Collaborer avec Anas a été une expérience enrichissante. Sa capacité à comprendre les besoins métier et à proposer des solutions adaptées est impressionnante. Il est professionnel, organisé et toujours à l'écoute. Je le recommande sans hésiter pour toute mission liée au développement web et aux nouvelles technologies.",
     linkednURL: "https://www.linkedin.com/in/sikandar-hayat-381407179/"
   },
   {
-    id: 2,
-    name: 'Nasir Khan',
+    id: 6,
+    name: 'Othmane Berrada',
     image: "images/nasir.jpg",
-    designation: 'MERN | JavaScript | Tailwind | Sass | Bootstrap',
-    view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+    designation: 'Développeur Frontend | MERN Stack | UI/UX Designer',
+    view: "Anas est un développeur frontend exceptionnel avec une vraie sensibilité pour le design UI/UX. J'ai eu l'occasion de suivre son travail sur plusieurs projets, et sa capacité à livrer des interfaces élégantes et performantes est remarquable. Il serait une excellente recrue pour tout projet ambitieux.",
     linkednURL: "https://www.linkedin.com/in/nasirkhan22/"
   },
   {
-    id: 3,
-    name: 'Muhammad Ullah',
+    id: 7,
+    name: 'Hafiz El Idrissi',
     image: "images/muhammad.jpeg",
-    designation: 'MERN Stack Developer at Productbox',
-    view: "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
+    designation: 'Développeuse Web | Spécialiste React & Next.js',
+    view: "Je recommande fortement Anas Javed pour toute opportunité dans le développement web. Il possède une expertise technique avancée en ReactJS et Next.js, combinée à une grande rigueur professionnelle. Travailler avec lui est toujours fluide et efficace.",
     linkednURL: "https://www.linkedin.com/in/muhammadullahafridi/"
   },
-]
+];
+
 export default function handler(req, res) {
   res.status(200).json(recommendationCard)
 }

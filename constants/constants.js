@@ -1,67 +1,57 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'EL BOUZIYANI Anas';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Etudiant GL @ ENSIAS  | Passionné d'Open Source | Architecte de systèmes`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Maroc',
+  City: 'Rabat',
+  Age: '28',
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
+    title: 'système d\'informatiques',
+    level: '80%',
   },
   {
-    title: 'React Developer',
-    level: '91%',
+    title: 'Administrateur des bases de donnés',
+    level: '65%',
   },
   // {
   //   title: 'Desktop Application Developer',
   //   level: '75%',
   // },
   {
-    title: 'Backend Developer',
-    level: '54%',
+    title: 'Developpement Mobile',
+    level: '85%',
   },
   {
-    title: 'Technical Blogger',
+    title: 'Developpemnet Backend',
     level: '83%',
   },
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
-  'TypeScript',
-  'NodeJS',
-  'Redux',
-  'Zustand',
-  'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
-  'REST API',
-  'MongoDB',
-  'MySQL',
-  'Git',
-  'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  'Java',
+  'Spring',
+  'Android',
+  'Junit',
+  'Gradle',
+  'Linux',
+  'Containers',
+  'Jenkins',
+  'Devops',
+  'MVC',
+  'MVVM'
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'aaelbouziyani@gmail.com',
+  PHONE: '+2120663060060',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/elbanas',
+  LINKEDIN: 'https://www.linkedin.com/in/anaselbouziyani/',
+  TWITTER: '',
+  FACEBOOK: '',
 };
