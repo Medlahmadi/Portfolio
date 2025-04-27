@@ -11,7 +11,7 @@ module.exports = {
         Black: "#000",
         DeepNightBlack: "#222222",
         MidNightBlack: "rgb(22, 21, 12)",
-        EveningBlack: "#444444",git
+        EveningBlack: "#444444",
         DarkGray: "#282828",
         SlateGray: "#404040",
         LightGray: "#959595",
