@@ -1,4 +1,4 @@
-export const NAME = 'EL BOUZIYANI Anas';
+export const NAME = 'LAHMADI Ahmed';
 
 export const DESIGNATION = `Etudiant GL @ ENSIAS  | Passionné d'Open Source | Architecte de systèmes`;
 
@@ -15,7 +15,7 @@ export const SKILLS = [
   },
   {
     title: 'Administrateur des bases de donnés',
-    level: '65%',
+    level: '60%',
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -23,11 +23,11 @@ export const SKILLS = [
   // },
   {
     title: 'Developpement Mobile',
-    level: '85%',
+    level: '70%',
   },
   {
     title: 'Developpemnet Backend',
-    level: '83%',
+    level: '80%',
   },
 ];
 
@@ -38,7 +38,6 @@ export const TECH_STACK = [
   'Junit',
   'Gradle',
   'Linux',
-  'Containers',
   'Jenkins',
   'Devops',
   'MVC',
@@ -46,12 +45,12 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: 'aaelbouziyani@gmail.com',
-  PHONE: '+2120663060060',
+  EMAIL: 'Ahmedlahmadi469@gmail.com',
+  PHONE: '+212653966586',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/elbanas',
-  LINKEDIN: 'https://www.linkedin.com/in/anaselbouziyani/',
+  GITHUB: 'https://github.com/Medlahmadi',
+  LINKEDIN: 'https://www.linkedin.com/in/ahmed-lahmadi-311ab2293/',
   TWITTER: '',
   FACEBOOK: '',
 };

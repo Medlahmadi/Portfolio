@@ -1,32 +1,37 @@
 const expertise = [
     {
-        id: 0,
-        title: 'Développement Full Stack',
-        desc: "Je suis un développeur MERN stack expérimenté avec une grande expertise dans la création d'applications web robustes utilisant MongoDB, Express.js, React.js et Node.js. Je maîtrise parfaitement le rendu côté serveur, l'intégration d'API et la gestion de bases de données. Grâce à mes compétences, je peux livrer des solutions web dynamiques et efficaces, adaptées aux besoins spécifiques des clients.",
+      id: 0,
+      title: 'Développement Full-Stack',
+      desc:
+        "Maîtrise des architectures web modernes : MERN (MongoDB, Express, React, Node), Spring Boot, Laravel et Oracle APEX. De la conception de l'API REST jusqu'au déploiement cloud (OCI, Firebase) en passant par les tests et l'intégration continue.",
     },
     {
-        id: 1,
-        title: 'Scrum et Jira',
-        desc: "En tant que développeur, je maîtrise Jira et les méthodologies Scrum. J'utilise Jira pour simplifier la gestion de projet : attribution des tâches, hiérarchisation et suivi de l'avancement. Scrum a renforcé mon travail d'équipe grâce aux réunions quotidiennes, aux planifications de sprint et aux rétrospectives. Mon expertise garantit la livraison rapide de produits logiciels de haute qualité.",
+      id: 1,
+      title: 'Conception & Modélisation',
+      desc:
+        "Solide expérience UML et Merise pour l’analyse et la modélisation des SI : diagrammes de classes, séquences, MCD/MPD. Je traduis les besoins métier en modèles clairs, prêts à être implémentés.",
     },
     {
-        id: 2,
-        title: 'Design (UI/UX)',
-        desc: "Je maîtrise des logiciels de design tels que Figma, Adobe XD et Adobe Illustrator. Grâce à ma participation à des hackathons et à des missions freelance, j'ai acquis une solide expérience pratique en design UI/UX et en graphisme. Le design est ma passion, ce qui me permet de développer constamment ma créativité et de progresser dans ce domaine.",
+      id: 2,
+      title: 'Systèmes & Réseaux',
+      desc:
+        "Administration Linux (bash, systemd, services) et bases réseaux (routing, VLAN, QoS). Certification CCNA validée ; capable de configurer, superviser et dépanner des infrastructures IP.",
     },
     {
-        id: 3,
-        title: 'GitHub',
-        desc: "GitHub est essentiel pour le contrôle de version et la collaboration. Son interface intuitive et ses fonctionnalités comme les pull requests et le suivi des issues facilitent la gestion de projet. L'intégration continue permet de maintenir un code à jour. GitHub est un outil indispensable à ma réussite en tant que développeur.",
+      id: 3,
+      title: 'Intelligence Artificielle & NLP',
+      desc:
+        "Certifié IBM AI Analyst. Développement d’outils NLP avec llama.cpp / CUDA et Python : extraction d’information, génération de texte et assistants IA embarqués dans des extensions VS Code.",
     },
     {
-        id: 4,
-        title: 'Contributeur Open Source',
-        desc: "L'Open Source est l'avenir. Je consacre généralement du temps le week-end pour contribuer à des projets open source. Cela me permet d'apprendre des meilleures pratiques des développeurs, d'aider les autres et d'apporter ma contribution à la communauté pour le bien commun.",
+      id: 4,
+      title: 'Agilité & Collaboration',
+      desc:
+        "Pratique quotidienne du Scrum : sprints, daily meetings, rétrospectives. Utilisation avancée de Jira pour le suivi des tâches et de Git/GitHub (branching, pull-requests, CI) pour un travail d’équipe fluide.",
     },
-];
-
-
-export default function handler(req, res) {
-    res.status(200).json(expertise)
-}
+  ];
+  
+  export default function handler(req, res) {
+    res.status(200).json(expertise);
+  }
+  

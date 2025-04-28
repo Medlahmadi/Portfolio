@@ -13,13 +13,13 @@ const Footer = () => {
                     <span>2025 All Rights Reserved.</span>
                 </div>
                 <div className="flex items-center">
-                    <a href='https://github.com/elbanas' target="_blank" rel="noreferrer">Made with ❤️ by <span className='font-bold'>Anas</span></a>
+                    <a href='https://github.com/Medlahmadi' target="_blank" rel="noreferrer">Made by <span className='font-bold'>Ahmed</span></a>
                 </div>
                 <div className="hidden md:flex items-center">
                     <div className="mr-1 text-base">
                         <MdMail />
                     </div>
-                    <div>aaelbouziyani@gmail.com</div>
+                    <div>Ahmedlahmadi@gmail.com</div>
                 </div>
             </div>
         </div>
